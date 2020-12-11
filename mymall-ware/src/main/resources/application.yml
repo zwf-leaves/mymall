@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://120.24.35.246:3306/mymall_wms
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: mymall-ware
+mybatis-plus:
+#  映射文件位置
+  mapper-locations: classpath:/mapper/**/*.xml
+#  主键自增你
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 8084

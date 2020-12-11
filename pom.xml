@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>zw.mymall</groupId>
+    <groupId>zwf.mymall</groupId>
     <artifactId>mymall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mymall</name>
@@ -17,6 +17,9 @@
         <module>mymall-order</module>
         <module>mymall-product</module>
         <module>mymall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>mymall-commom</module>
     </modules>
 
 
