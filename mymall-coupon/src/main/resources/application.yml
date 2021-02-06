@@ -14,6 +14,11 @@
 ##  映射文件位置
 #  mapper-locations: classpath:/mapper/**/*.xml
 ##  主键自增你
-#  global-config:
-#    db-config:
+#  global-zwf.mymall.gateway.config:
+#    db-zwf.mymall.gateway.config:
 #      id-type: auto
+#feign:
+#  httpclient:
+#    connection-timeout: 10000
+#    connection-timer-repeat: 10000
+

@@ -8,8 +8,15 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+#    alicloud:
+#      access-key: LTAI4GGyAtbk6CXkvQNpg4uD
+#      secret-key: dS6C71RenRNYtnNtPAbyF1HASZJa8M
+#      oss:
+#        endpoint: http://oss-cn-shenzhen.aliyuncs.com
   application:
     name: mymall-product
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
 mybatis-plus:
   #  映射文件位置
   mapper-locations: classpath:/mapper/**/*.xml
@@ -17,5 +24,11 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
+      logic-delete-field: show_statues
+      logic-delete-value: 1
+      logic-not-delete-value: 0
 server:
   port: 8083
+#logging:
+#  level:
+#    root: debug

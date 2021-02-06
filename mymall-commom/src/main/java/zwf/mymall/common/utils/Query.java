@@ -6,16 +6,15 @@
  * 版权所有，侵权必究！
  */
 
-package zwf.common.utils;
+package zwf.mymall.common.utils;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 
 import org.apache.commons.lang.StringUtils;
-import zwf.common.xss.SQLFilter;
+import zwf.mymall.common.xss.SQLFilter;
 
-import java.util.HashSet;
 import java.util.Map;
 
 /**

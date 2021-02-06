@@ -2,7 +2,7 @@ package zwf.mymall.member.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
-import zwf.common.utils.R;
+import zwf.mymall.common.utils.R;
 
 /**
  * @author zwf

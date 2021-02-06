@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package zwf.common.utils;
+package zwf.mymall.common.utils;
 
 import org.apache.http.HttpStatus;
 
@@ -59,5 +59,8 @@ public class R extends HashMap<String, Object> {
 	public R put(String key, Object value) {
 		super.put(key, value);
 		return this;
+	}
+	public Integer getCode(){
+		return (Integer) this.get("code");
 	}
 }

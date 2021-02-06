@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package zwf.common.utils;
+package zwf.mymall.common.utils;
 
 /**
  * 常量

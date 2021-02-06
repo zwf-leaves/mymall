@@ -6,11 +6,11 @@
  * 版权所有，侵权必究！
  */
 
-package zwf.common.xss;
+package zwf.mymall.common.xss;
 
 //import io.renren.common.exception.RRException;
 import org.apache.commons.lang.StringUtils;
-import zwf.common.utils.RRException;
+import zwf.mymall.common.utils.RRException;
 
 /**
  * SQL过滤

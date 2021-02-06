@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package zwf.common.utils;
+package zwf.mymall.common.utils;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 

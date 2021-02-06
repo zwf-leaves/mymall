@@ -1,4 +1,4 @@
-package zwf.common.xss;
+package zwf.mymall.common.xss;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

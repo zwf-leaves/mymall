@@ -1,0 +1,20 @@
+# 应用名称
+server:
+  port: 8086
+spring:
+  application:
+    name: mymall-third-party
+  cloud:
+    alicloud:
+      access-key: LTAI4GGyAtbk6CXkvQNpg4uD
+      secret-key: dS6C71RenRNYtnNtPAbyF1HASZJa8M
+      oss:
+        endpoint: oss-cn-shenzhen.aliyuncs.com
+        bucket: zwf-mymall
+
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+
+
