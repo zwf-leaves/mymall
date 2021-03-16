@@ -6,8 +6,8 @@ spring:
     name: mymall-third-party
   cloud:
     alicloud:
-      access-key: LTAI4GGyAtbk6CXkvQNpg4uD
-      secret-key: dS6C71RenRNYtnNtPAbyF1HASZJa8M
+      access-key: xxxxxxxxxxxxxxxx
+      secret-key: xxxxxxxxxxxxxxxxxxxxx
       oss:
         endpoint: oss-cn-shenzhen.aliyuncs.com
         bucket: zwf-mymall
